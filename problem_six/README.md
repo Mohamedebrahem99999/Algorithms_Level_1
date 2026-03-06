@@ -30,4 +30,6 @@ Note: Adding the space `" "` between the names is essential to ensure they are n
 * **FullName:** The complete name string displayed to the user.
 
 ---
-![alt text](image.png)
+#Solution
+
+<img src="problem_six\image.png" width="200">
