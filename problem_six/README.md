@@ -32,4 +32,4 @@ Note: Adding the space `" "` between the names is essential to ensure they are n
 ---
 #Solution
 
-<img src="problem_six\image.png" width="200">
+<img src="problem_six/image.png" width="200">
