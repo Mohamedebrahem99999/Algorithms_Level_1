@@ -30,4 +30,4 @@ If neither condition is met, the candidate is **"Rejected"**.
 ---
 
 #Solution
-![alt text](Problem_five-1.jpg)
+problem_five/Problem_five-1.jpg
