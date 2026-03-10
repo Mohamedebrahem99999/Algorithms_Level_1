@@ -24,7 +24,7 @@ To solve this, we use a counter that starts from 1 and increments in each step u
 2. **Read:** Store the value in variable `N`.
 3. **Initialization:** Let the counter `i = 1`.
 4. **Loop/Decision:** - Check if `i <= N`.
-   - If **True**: 
+   - If **True**:
      - Print `i`.
      - Increment `i` by 1 (`i = i + 1`).
      - Go back to the start of the decision.
