@@ -34,4 +34,4 @@ To solve this problem, we need to determine if there is a remainder when the num
 
 ## 🖼️ Solution
 
-![alt text](<CheckOddor Even.jpg>)
+![alt text](<Check Odd or Even.jpg>)
