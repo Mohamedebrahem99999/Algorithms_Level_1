@@ -24,7 +24,7 @@ In this case, our counter starts from N and decreases (decrements) by 1 in each 
 2. **Read:** Store the value in variable `N`.
 3. **Initialization:** Let the counter `i = N`.
 4. **Loop/Decision:** - Check if `i >= 1`.
-   - If **True**: 
+   - If **True**:
      - Print `i`.
      - Decrement `i` by 1 (`i = i - 1`).
      - Go back to the start of the decision.
