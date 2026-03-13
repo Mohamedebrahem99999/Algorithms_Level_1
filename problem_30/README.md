@@ -1,4 +1,4 @@
-# Problem #30: Factorial of N!
+# Problem #30: Factorial of N
 
 ## 📝 Problem Description
 
@@ -22,7 +22,7 @@ To calculate the factorial, we use a loop that multiplies numbers progressively:
    - Let the result `Factorial = 1`.
 4. **Loop/Decision:**
    - Check if `i > 0`.
-   - If **True**: 
+   - If **True**:
      - `Factorial = Factorial * i`.
      - `i = i - 1` (Decrement).
      - Go back to the loop decision.
