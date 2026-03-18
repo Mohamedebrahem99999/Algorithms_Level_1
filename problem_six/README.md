@@ -39,4 +39,4 @@ Note: Adding the space `" "` between the names is essential to ensure they are n
 
 ## Solution
 
-![alt text](FullName.png)
+![alt text](printFullName.jpg)
