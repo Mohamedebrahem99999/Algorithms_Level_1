@@ -20,7 +20,7 @@ In this approach, we check every number from 2 up to $N-1$. It is simple but ine
 
 ---
 
-![alt text](<IsPrime(Optimized Version)-2.jpg>)
+![alt text](IsPrime.jpg)
 
 ## 🚀 Solution 2: Optimized Logic - $O(\sqrt{N})$ Complexity
 
@@ -61,4 +61,4 @@ If the input Number is **1,000,000**:
        - **No:** `i = i + 1`.
 6. **End**
 
-![alt text](<IsPrime(Optimized Version)-1.jpg>)
+![alt text](<IsPrime(Optimized Version).jpg>)
