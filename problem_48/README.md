@@ -47,4 +47,4 @@ This is an **$O(1)$** (Constant Time) operation. The computer performs a single 
 
 ## Solution
 
-![alt text](MonthlyLoanSettlement.jpg)
+![alt text](MonthlyLoanSettlement-2.jpg)
