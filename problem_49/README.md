@@ -49,4 +49,4 @@ The time complexity is **$O(N)$**, where $N$ is the number of attempts the user 
 
 ## Solution
 
-![alt text](ATMPIN-1.jpg)
+![alt text](ATMPIN.jpg)
