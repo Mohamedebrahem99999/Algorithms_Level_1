@@ -47,4 +47,4 @@ This calculation is **$O(1)$** (Constant Time) because it involves a single math
 
 ## Solution
 
-![alt text](LoanSettlementMonths.jpg)
+![alt text](LoanSettlementMonths-1.jpg)
