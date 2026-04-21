@@ -1,4 +1,5 @@
 #include <iostream>
+enum enumberType{Odd = 1, Even = 2};
 
 int readNumber()
 {
@@ -6,16 +7,23 @@ int readNumber()
     std::cin >> Num;
     return Num;
 }
-
-void check (int Num)
+enumberType checkNumberType(int Num)
 {
-    if(Num %2 ==0)
-        std::cout << "Even\n";
+    int Result = Num%2;
+    if(Result==0)
+        return enumberType::Even;
     else
-        std::cout << "Odd\n";
+        return enumberType::Odd;
+}
+void printNumberType(enumberType numberType)
+{
+    if (numberType == enumberType::Even)
+        std::cout << "\n Number is Even\n";
+    else
+        std::cout << "\n Number is Odd\n";
 }
 
 int main ()
 {
-    
+    printNumberType(checkNumberType(readNumber()));
 }
