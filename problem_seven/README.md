@@ -1,9 +1,11 @@
 # Problem #7: Half Number
 
 ## 📝 Problem Description
+
 The goal of this program is to ask the user to enter an integer number, calculate its half, and then display the result in a clear, formatted message on the screen.
 
 **Example:**
+
 - If the user enters: `60` -> Output: `Half of 60 is 30`
 - If the user enters: `50` -> Output: `Half of 50 is 25`
 
@@ -34,8 +36,9 @@ To solve this problem, we follow these logical steps:
 ---
 
 ## 💡 Key Takeaways
+
 - **Data Types:** Depending on the programming language, you may need to use `float` or `double` if you want to handle odd numbers (like 5 becoming 2.5) instead of simple integer division.
 - **String Concatenation:** Using the `+` operator or commas (depending on the language) allows us to mix text literals (in quotes) with variable values.
 - **Dynamic Messages:** By including the original number in the output, the program provides better context for the user.
 
-![alt text](<Untitled Diagram-1.jpg>)
+![alt text](<HalfNumber.jpg>)
