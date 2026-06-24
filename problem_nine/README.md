@@ -1,10 +1,12 @@
 # Problem #9: Sum of 3 Numbers
 
 ## 📝 Problem Description
+
 The goal of this program is to prompt the user to enter three separate numbers, calculate their total sum, and then display the result on the screen.
 
 **Example:**
-- If the user enters: `10`, `20`, and `30` 
+
+- If the user enters: `10`, `20`, and `30`
 - The Output will be: `60`
 
 ---
@@ -29,6 +31,6 @@ The goal of this program is to prompt the user to enter three separate numbers, 
 
 ---
 
-#Solution
+## Solution
 
 ![alt text](<SumOfThree numbers.jpg>)
