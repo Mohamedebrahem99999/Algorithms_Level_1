@@ -23,7 +23,4 @@ int main()
     int Num1, Num2;
     readNumbers(Num1,Num2);
     printMax(setMax(Num1,Num2));
-
-    
-
 }
