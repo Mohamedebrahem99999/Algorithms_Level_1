@@ -2,30 +2,28 @@
 
 ## 📝 Problem Description
 
-Write a program to ask the user to enter three numbers (e.g., A, B, C) and then print the **Maximum** (largest) number on the screen.
+Write a program to ask the user to enter two numbers (e.g., A, B) and then print the **Maximum** (largest) number on the screen.
 
 **Example:**
 
-- If the user enters: `30`, `10`, and `20`
+- If the user enters: `30`, `10`
 - The Output will be: `30`
 
 ---
 
 ## 🛠️ Algorithm Steps (Logic)
 
-Finding the maximum of three numbers involves nested comparisons to isolate the largest value:
+Finding the maximum of two numbers direct comparison to get largest value:
 
-1. **Input:** Ask the user to enter three numbers (A, B, C).
+1. **Input:** Ask the user to enter two numbers (A, B).
 2. **Read:** Store the values in variables.
-3. **Comparison 1:** Compare **A** and **B**.
+3. **Comparison :** Compare **A** and **B**.
    - If **A > B**:
-     - Compare **A** and **C**.
-     - If **A > C**, then **A** is the Max.
-     - If **A < C**, then **C** is the Max.
-   - If **A < B**:
-     - Compare **B** and **C**.
-     - If **B > C**, then **B** is the Max.
-     - If **B < C**, then **C** is the Max.
+     then **A** is the Max.
+   - If **A > B**:
+     **B** is the Max.
+   -else
+      **A** = **B**
 4. **Output:** Print the largest number found.
 
 ---
@@ -33,16 +31,14 @@ Finding the maximum of three numbers involves nested comparisons to isolate the 
 ## 📊 Flowchart Logic
 
 1. **Start**
-2. **Input:** `Read A, B, C`
+2. **Input:** `Read A, B`
 3. **Decision 1:** `Is A > B?`
    - **If Yes:**
-     - **Decision 2:** `Is A > C?`
-       - **Yes:** `Print A`
-       - **No:** `Print C`
+       - `Print A`
    - **If No:**
-     - **Decision 3:** `Is B > C?`
-       - **Yes:** `Print B`
-       - **No:** `Print C`
+     - **Decision 3:** `Is B = A`
+       - **No:** `Print B`
+       - **Yes** `Print A`
 4. **End**
 
 ---
