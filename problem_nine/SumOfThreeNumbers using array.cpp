@@ -10,9 +10,9 @@ void readNums(int arr[3])
     std::cin >> arr[2];
 }
 
-int SumOfThreeNumbers(int Num1, int Num2, int Num3)
+int SumOfThreeNumbers(int Nums[3])
 {
-    return Num1 + Num2 + Num3;
+    return Nums[0] + Nums[1] + Nums[2];
 }
 
 void PrintResult(int Total)
@@ -24,5 +24,5 @@ int main()
 {
     int arr[3];
     readNums(arr);
-    PrintResult(SumOfThreeNumbers(arr[0], arr[1], arr[2]));
+    PrintResult(SumOfThreeNumbers(arr));
 }
