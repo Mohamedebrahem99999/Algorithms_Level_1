@@ -14,7 +14,7 @@ float calculateArea (float Height, float Base)
     return (0.5) * (Base*Height);
 }
 
-void printArea(int Area)
+void printArea(float Area)
 {
     std::cout << "Rectangle Area = " << Area << std::endl;
 }
