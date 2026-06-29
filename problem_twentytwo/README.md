@@ -15,7 +15,7 @@ Write a program to calculate circle area inscribed in an isosceles triangle and 
 
 To calculate the area of a circle inscribed in an isosceles triangle, we use the specific formula involving the base and side lengths:
 
-1. **Input:** Ask the user to enter triangle base `a` and side `b`.
+1. **Input:** Ask the user to enter triangle base `b` and side `a`.
 2. **Read:** Store the values in variables `a` and `b`.
 3. **Processing:** - Calculate the area using the formula: $Area = \pi * \frac{a^2 * (2b - a)}{4 * (2b + a)}$
 4. **Output:** Print the `Area`.
