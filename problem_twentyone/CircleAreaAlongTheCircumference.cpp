@@ -3,7 +3,7 @@
 
 const double PI = 3.14159265358979323846;
 
-void readSquareLength(double &Circumference)
+void readTriangleDimensions(double &Circumference)
 {
     std::cout << "Enter the Circumference of the Circle\n";
     std::cin >> Circumference;
@@ -11,7 +11,7 @@ void readSquareLength(double &Circumference)
 
 double calculateArea(double Circumference)
 {
-    return ((.25)* pow(Circumference, 2))/PI;
+    return ((.25) * pow(Circumference, 2)) / PI;
 }
 
 void printArea(double Area)
@@ -22,6 +22,6 @@ void printArea(double Area)
 int main()
 {
     double Circumference;
-    readSquareLength(Circumference);
+    readTriangleDimensions(Circumference);
     printArea(calculateArea(Circumference));
 }
