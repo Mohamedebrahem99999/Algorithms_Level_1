@@ -3,7 +3,7 @@
 
 const double PI = 3.14159265358979323846;
 
-void readSquareLength(double &length)
+void readTriangleDimensions(double &length)
 {
     std::cout << "Enter the Length of the square\n";
     std::cin >> length;
@@ -22,6 +22,6 @@ void printArea(double Area)
 int main()
 {
     double length;
-    readSquareLength(length);
+    readTriangleDimensions(length);
     printArea(calculateArea(length));
 }
