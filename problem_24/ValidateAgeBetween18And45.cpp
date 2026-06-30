@@ -16,7 +16,7 @@ bool validateNumberInRange(int Number, int From, int To)
 
 void printResult()
 {
-    std::cout <<  (validateNumberInRange(25,GetAge(),45)? "Valid age\n":"Invalid age\n");
+    std::cout <<  (validateNumberInRange(GetAge(),25,45)? "Valid age\n":"Invalid age\n");
 }
 
 int main()
