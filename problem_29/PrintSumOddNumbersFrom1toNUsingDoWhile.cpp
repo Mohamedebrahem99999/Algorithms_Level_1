@@ -10,17 +10,17 @@ int readNumber()
     return Number;
 }
 
-enOddOrEven isOdd(int Number)
+enOddOrEven OddOrEven(int Number)
 {
     return (Number %2 != 0 ? enOddOrEven::Odd :enOddOrEven::Even);
 }
 
-int SumOfOddNums(int End)
+int SumOfEvenNums(int End)
 {
     int Sum = 0;
     int i = 1;
     do {    
-        Sum+=(isOdd(i) == enOddOrEven::Even?i:0);
+        Sum+=(OddOrEven(i) == enOddOrEven::Even?i:0);
         i++;
     }
     while (i <= End);
@@ -35,5 +35,5 @@ void printSum(int Sum)
 
 int main()
 {
-    printSum(SumOfOddNums(readNumber()));
+    printSum(SumOfEvenNums(readNumber()));
 }
