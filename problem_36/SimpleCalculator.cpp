@@ -1,36 +1,39 @@
 #include <iostream>
 #include <string>
 
-void readData(int &Number1, int &Number2, char &op)
+enum enOperationType {Add = '+', Subtract = '-', Multiply = '*', Divide = '/' };
+
+int readNumber(std::string message)
 {
-    std::cout << "Enter the first number\n";
-    std::cin >> Number1;
-    std::cout << "Enter the second number\n";
-    std::cin >> Number2;
-    std::cout << "Enter the operator \n";
-    std::cin >> op;
+    int Number;
+    std::cout << message << "\n";
+    std::cin >> Number;
+    return Number;
+}
+
+enOperationType readOperator()
+{
+    char OperationType;
+    std::cout << "Enter the operator type (+, -, *, /) ?\n";
+    std::cin >> OperationType;
+    return (enOperationType) OperationType;
 }
 
 
-float getResult(int &Number1, int &Number2, char &op)
+float getResult(float Number1, float Number2, enOperationType OperationType)
 {
-    switch (op)
+    switch (OperationType)
     {
-    case '+':
+    case enOperationType::Add:
         return Number1 + Number2;
-        break;
-    case '-':
+    case enOperationType::Subtract:
         return Number1 - Number2;
-        break;
-    case '*':
+    case enOperationType::Multiply:
         return Number1*Number2;
-        break;
-    case '/':
-        return (float)Number1/(float)Number2;
-        break;
+    case enOperationType::Divide:
+        return Number1/Number2;
     default:
         return -1;
-        break;
     }
 }
 
@@ -44,8 +47,8 @@ void printResult(float Result)
 
 int main()
 {
-    int Number1, Number2;
-    char op;
-    readData(Number1, Number2, op);
-    printResult(getResult(Number1,Number2,op));
+    int Number1 = readNumber("Enter the first Number");
+    int Number2 = readNumber("Enter the second Number");;
+    enOperationType OperationType = readOperator();
+    printResult(getResult(Number1, Number2, OperationType));
 }
