@@ -1,10 +1,12 @@
 #include <iostream>
 
-float readNumber(std::string message)
+float readPositiveNumber(std::string Message)
 {
     float Number;
-    std::cout << message;
-    std::cin >> Number;
+    do{
+        std::cout << Message;
+        std::cin >> Number;
+    }while(Number <= 0);
     return Number;
 }
 
