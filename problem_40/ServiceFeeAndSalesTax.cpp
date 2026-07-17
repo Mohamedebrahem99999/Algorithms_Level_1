@@ -31,6 +31,4 @@ int main()
     BillValue += calcServiceFees(BillValue);
     BillValue += calcSalesTax(BillValue);
     printTotalBill(BillValue);
-
-
 }
