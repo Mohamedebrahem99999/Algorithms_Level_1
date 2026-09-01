@@ -22,17 +22,9 @@ int readNumber(std::string Message = "Enter a number: ")
     }
 }
 
-bool login(int PIN, std::string Message = "")
+void resetScreen()
 {
-    int Number;
-    while (true)
-    {
-        Number = readNumber(Message);
-        if (Number == PIN)
-        {
-            return 1;
-        }
-    }
+    system("color 07");
 }
 
 void showBalance(bool login)
@@ -50,7 +42,19 @@ void showBalance(bool login)
     }
 }
 
+bool loginSucceed()
+{
+    return readNumber("Enter the PIN: ") == PIN;
+}
+
 int main()
 {
-    showBalance(login(PIN, "Enter the PIN: "));
+    while (true)
+    {
+        bool Login = loginSucceed();
+        showBalance(Login);
+        if (Login)
+            break;
+    }
+    // resetScreen();
 }
