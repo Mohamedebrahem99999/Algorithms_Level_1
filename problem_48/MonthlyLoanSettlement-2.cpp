@@ -55,6 +55,6 @@ float getMonthlyPayment(int LoanAmount, int NumberOfMonths)
 int main()
 {
     int LoanAmount = readPositiveNumber("Enter the Monthly Loan Amount: ");
-    int NumberOfMonths = readNumberInRange(LoanAmount, 1, "Enter the Number Of Months: ");
+    int NumberOfMonths = readPositiveNumber("Enter the Number Of Months: ");
     std::cout << getMonthlyPayment(LoanAmount, NumberOfMonths) << "\n";
 }
